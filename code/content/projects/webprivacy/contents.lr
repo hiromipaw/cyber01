@@ -1,0 +1,17 @@
+title: webprivacy.rocks
+---
+illo: /static/images/undraw_listening_1u79.png
+---
+summary: Web Privacy Rocks! are a collection of documents about privacy on the Web and developing for the privacy-friendly Web. The objective behind Web Privacy Rocks! is to provide developers with the information and resources needed to understand privacy issues and build privacy-friendly projects on the web platform that can be rendered by Tor browser as by any other browser.
+---
+body:
+
+Users face a multitude of privacy and security threats while surving the web. From behavioural tracking to actual profiling across different websites and subsequent visits.
+
+Tools have been developed to help user surf the web and enjoy a certain amount of privacy.
+
+Tor is an important tool providing privacy and anonymity online. At the same time websites and web applications could improve in many aspects when it comes to users' privacy. From better supporting privacy friendly browser to avoid tracking users, to become more lightweight and usable for users with mobile devices and limited battery life.
+
+Furthermore Tor provides .onion services. .onion services allow applications to make use of the Tor network to be more secure. Onion services provide better authentication and assurance of who you are talking to. In this case, Tor can provide bi-directional anonymity by making it possible for users to hide their locations while offering various kinds of services, such as web publishing or an instant messaging server.
+
+The property of anonymity itself is more than just providing an encrypted connection between the source and the destination of a given conversation. There is in fact a lot of information that can be still learned by just observing encrypted communications.

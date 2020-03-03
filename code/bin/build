@@ -1,0 +1,4 @@
+#!/bin/bash
+lektor build -O public
+cp -r public/* ../
+rm -fr public

@@ -1,0 +1,25 @@
+<!doctype html>
+{% include 'header.html' %}
+<body>
+  <div class="wrapper">
+      {% include 'navbar.html' %}
+      <div id="main" class="main">
+        {% include 'hero.html' %}
+        {% include 'features.html' %}
+        {% include 'projects.html' %}
+        {% include 'donate.html' %}
+        {% include 'news.html' %}
+        {% include 'footer.html' %}
+       <!-- Scroll To Top -->
+        <div id="back-top" class="bk-top">
+          <div class="bk-top-txt">
+             <a class="back-to-top js-scroll-trigger" href="#main">top</a>
+          </div>
+        </div>
+       <!-- Scroll To Top Ends-->
+
+      </div> <!-- Main -->
+    </div><!-- Wrapper -->
+
+  {% include 'scripts.html' %}
+</body>

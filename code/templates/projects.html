@@ -1,0 +1,25 @@
+<div id="features" class="flex-split wow fadeIn">
+ <div class="container-s">
+   <div class="flex-intro align-center">
+     {% set feat = site.get('/projects') %}
+     <h2>{{ feat.title }}</h2>
+     <p>{{ feat.summary }}</p>
+   </div>
+   {% set items = site.query('/projects') %}
+   {% for item in items %}
+
+     <div class="flex-inner {% if loop.index % 2 == 0 %} flex-inverted {% endif %} align-center">
+         <div class="f-image">
+           <img class="img-fluid" src="{{ item.illo|asseturl }}" alt="Feature">
+         </div>
+         <div class="f-text">
+           <div class="left-content">
+             <h2>{{ item.title }}</h2>
+             <p>{{ item.summary }}</p>
+             <a href="#">Know more</a>
+           </div>
+         </div>
+     </div>
+    {% endfor %}
+ </div>
+</div>

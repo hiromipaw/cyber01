@@ -1,0 +1,34 @@
+<!doctype html>
+{% include 'header.html' %}
+<body>
+  <div class="wrapper">
+      {% include 'navbar.html' %}
+      <div id="main" class="main">
+        <div id="features" class="flex-split wow fadeIn">
+         <div class="container">
+           <div class="flex-intro align-center">
+
+             <h2>{{ this.title }}</h2>
+             <p>{{ this.summary }}</p>
+           </div>
+           <div class="row">
+              <div class="col-12">
+                {% block body %} {% endblock %}
+              </div>
+          </div>
+         </div>
+       </div>
+      {% include 'footer.html' %}
+       <!-- Scroll To Top -->
+        <div id="back-top" class="bk-top">
+          <div class="bk-top-txt">
+             <a class="back-to-top js-scroll-trigger" href="#main">top</a>
+          </div>
+        </div>
+       <!-- Scroll To Top Ends-->
+
+      </div> <!-- Main -->
+    </div><!-- Wrapper -->
+
+  {% include 'scripts.html' %}
+</body>

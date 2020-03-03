@@ -1,0 +1,19 @@
+{% from "macros/blog.html" import render_blog_post_summary %}
+<div class="ar-ft-single">
+  <div class="container-m">
+    <div class="ar-feature">
+      <div class="ar-list">
+        {% set items = site.query('/articles') %}
+        <ul>
+          {% for item in items %}
+            {{ render_blog_post_summary(item) }}
+          {% endfor %}
+
+        </ul>
+      </div>
+      <div class="ar-image">
+        <img class="ar-img img-fluid" src="{{ '/static/images/undraw_newspaper_k72w.png'|asseturl }}" alt="Hero Image">
+      </div>
+    </div>
+  </div>
+</div>

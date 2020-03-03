@@ -1,0 +1,9 @@
+title: Ghostwriter
+---
+illo: /static/images/ghostwriter.png
+---
+summary: GhostWriter lets you edit a website via lektor, a flexible and powerful static content management system for building websites out of markdown files — for people who do not want to make a compromise between a CMS and a static blog engine. The generated site can be published via onionshare or a web server running from your computer.
+---
+body:
+
+GhostWriter works by starting a lektor project that you have cloned via git. If the project is a fork, you can keep up with upstream by easily rebasing. The project can be started locally and be edited as a CMS. Finally it also makes your website accessible as a Tor onion service, by using either OnionShare or a nginx webserver on a Docker container. The onion setup is completely transparent for the end user, that will be able to access it via Tor Browser---
