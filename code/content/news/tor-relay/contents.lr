@@ -1,0 +1,11 @@
+title:  Published a playbook to run a Tor relay via ansible ssh
+---
+summary: We are releasing a playbook to quickly setup a Tor relay 
+---
+illo: /static/images/undraw_code_thinking_1jeh.png
+---
+pub_date: 2020-02-28
+---
+author: cyber01
+---
+body:

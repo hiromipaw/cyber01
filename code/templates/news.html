@@ -3,7 +3,7 @@
   <div class="container-m">
     <div class="ar-feature">
       <div class="ar-list">
-        {% set items = site.query('/articles') %}
+        {% set items = site.query('/news') %}
         <ul>
           {% for item in items %}
             {{ render_blog_post_summary(item) }}

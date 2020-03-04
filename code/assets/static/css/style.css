@@ -68,12 +68,14 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Source Sans Pro';
-  font-size: 16px;
+  font-size: 1.4em;
+	padding: 0.8em;
 }
 
 p {
 	font-family: 'Source Sans Pro';
-	font-size: 14px;
+	font-size: 1.2em;
+	line-height: 1.4;
 }
 
 /*----- Helper Classes -----*/

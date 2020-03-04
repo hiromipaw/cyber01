@@ -8,10 +8,15 @@
          <div class="container">
            <div class="flex-intro align-center">
 
-             <h2>{{ this.title }}</h2>
-             <p>{{ this.summary }}</p>
+             <h2 class="display-1">{{ this.title }}</h2>
+
            </div>
-           <div class="row">
+           <div class="row p-5">
+             <div class="col-12">
+               <h3 class="display-4">{{ this.summary }}</h3>
+             </div>
+           </div>
+           <div class="row p-5">
               <div class="col-12">
                 {% block body %} {% endblock %}
               </div>

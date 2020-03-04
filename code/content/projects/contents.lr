@@ -5,9 +5,15 @@ summary: What we are working on
 body:
 
 
-This is a list of the projects:
+This is a list of projects:
+
+--
+
+## [Ghostwriter](ghostwriter)
+
+GhostWriter lets you edit a website via lektor, a flexible and powerful static content management system for building websites out of markdown files — for people who do not want to make a compromise between a CMS and a static blog engine. The generated site can be published via onionshare or a web server running from your computer.
 
 
-* Project 1
-* Project 2
-* Project 3
+## [Webprivacy.Rocks](webprivacy)
+
+Web Privacy Rocks! are a collection of documents about privacy on the Web and developing for the privacy-friendly Web. The objective behind Web Privacy Rocks! is to provide developers with the information and resources needed to understand privacy issues and build privacy-friendly projects on the web platform that can be rendered by Tor browser as by any other browser.
