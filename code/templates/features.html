@@ -5,17 +5,18 @@
         <div class="features-intro">
           {% set feat = site.get('/features') %}
           <h2>{{ feat.title }}</h2>
-          <p>{{ feat.summary }}</p>
+          <h3 class="display-4">{{ feat.summary }}</h3>
         </div>
       </div>
       {% set items = site.query('/features') %}
       {% for item in items %}
         <div class="col-md-6 col-lg-4 mt-5">
-          <div class="card">
-            <img src="{{ item.illo|asseturl }}" class="card-img-top" alt="Feature">
+          <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">{{ item.title }}</h3>
-              <p class="card-text">{{ item.summary }}</p>
+              <a href="{{ item.path}}"><img src="{{ item.illo|asseturl }}" class="img-thumbnail border-0" alt="Feature"></a>
+            </div>
+            <div class="card-footer">
+              <h3 class="card-title"><a href="{{ item.path}}">{{ item.title }}</a></h3>
             </div>
           </div>
         </div>

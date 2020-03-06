@@ -2,13 +2,24 @@ title: Security
 ---
 illo: /static/images/undraw_Security_on_ff2u.png
 ---
-summary: this is all about security
+summary: Protect communication and ensure safe of use of technology
 ---
 body:
 
-This is a list of the projects:
+Protecting communications, preserve anonymity, ensure better authentication, serve
+an important need for online users and service operators alike.
 
-* Project 1
-* Project 2
-* Project 3
+Improved security tools mark important improvements for online users, centered
+around protecting content ("encryption") exchanged between two parties, but also
+around improved authentication.
+
+Decentralization is also an important topic in providing security. Centralized
+services make it harder to protect communications metadata.
+
+In our currently centralized internet a few organizations have too much visibility
+over the traffic generate by a large share of the population of online users.
+This aspect gives these organizations a lot of power over how and who can access
+certain content, reinforcing the digital divide and isolating even more certain
+groups that might be already marginalized offline.
+
 ---

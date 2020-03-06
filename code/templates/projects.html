@@ -3,7 +3,7 @@
    <div class="flex-intro align-center">
      {% set feat = site.get('/projects') %}
      <h2>{{ feat.title }}</h2>
-     <p>{{ feat.summary }}</p>
+     <h3 class="display-4">{{ feat.summary }}</h3>
    </div>
    {% set items = site.query('/projects') %}
    {% for item in items %}
