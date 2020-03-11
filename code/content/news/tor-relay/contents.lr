@@ -1,6 +1,6 @@
-title:  Published a playbook to run a Tor relay via ansible ssh
+title:  Published a playbook to run a Tor bridge via ansible ssh
 ---
-summary: We are releasing a playbook to quickly setup a Tor relay 
+summary: We are releasing a playbook to quickly setup a Tor bridge
 ---
 illo: /static/images/undraw_code_thinking_1jeh.png
 ---
@@ -9,3 +9,10 @@ pub_date: 2020-02-28
 author: cyber01
 ---
 body:
+
+We are releasing an ansible playbook to quickly setup a tor bridge given only its
+IP address and root ssh key.
+
+https://github.com/hiromipaw/ansible-bootstrap-bridge
+
+It's still experimental, but please give it a try.
