@@ -72,7 +72,8 @@ table {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Source Sans Pro';
   font-size: 1.4em;
-	padding: 0.8em;
+	font-weight: 600;
+	padding-top: 0.8em;
 }
 
 p {
