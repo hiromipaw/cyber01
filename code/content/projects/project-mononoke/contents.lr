@@ -1,0 +1,48 @@
+title: Project Mononoke
+---
+illo: /static/images/x-special/undraw_chat_1wo5.png
+
+---
+summary: Online disinformation campaigns. How do these work. What can we do.
+---
+body:
+
+Every social media user has possibly noticed how content is often driven by very
+strong emotions. Many posts range from extreme cute kittens to drama stories, but
+above all emotions it seems like online content is especially fueled by anger [1] [2].
+
+This might be specifically true for political driven content [3], but how people
+came from coming together to comment Eurovision [4] to insult each others during
+political campaigns?
+
+To understand how we got here, we cannot ignore everything that happen with facebook
+and Cambridge Analytica [5]. Between 2013 and 2018 the company combined aggregation
+of Facebook data (later proved illegal), data mining and analysis, with communication
+campaigns during the electoral processes around the world with the goal to influence
+their outcome in favour of their clients [6].
+
+But what how does misinformation really look like?
+
+If we take a look how any controversial or political topic on twitter we get
+a glimpse of how companies like Cambridge Analytica operate.
+
+At its core misinformation campaigns are built to spread a certain political agenda
+using specific language and amplifying only certain sources.
+
+Project Mononoke offers a DB to analyse political campaigns on twitter.
+Data collected can be accessed via [Metabase](https://metabase.com).
+
+The instance is available on [heroku](https://project-mononoke.herokuapp.com/)
+And you can get access by getting in touch.
+
+You can have a look at this [dashboard](http://project-mononoke.herokuapp.com/public/dashboard/7e31a8e1-345b-4742-9774-82b86892135f)
+with some questions we used to do [this study](https://www.hiro7.eu/blog/hiromipaw.github.io/2020-04-08-online-disinformation-part-2).
+
+REFERENCES:
+
+[1] https://www.wired.com/story/this-big-beef-exposes-the-ugly-underbelly-of-vegan-vlogging/
+[2] https://www.theguardian.com/science/2018/may/16/living-in-an-age-of-anger-50-year-rage-cycle
+[3] https://time.com/4838673/anger-and-partisanship-as-a-virus/
+[4] https://blog.twitter.com/en_gb/topics/marketing/2017/eurovision-2017.html
+[5] https://www.theguardian.com/technology/2019/mar/17/the-cambridge-analytica-scandal-changed-the-world-but-it-didnt-change-facebook
+[6] https://en.wikipedia.org/wiki/Cambridge_Analytica
